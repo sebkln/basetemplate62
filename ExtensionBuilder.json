@@ -1,0 +1,37 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "Use this as a base for your website configuration. Add all your Stylesheets, JavaScripts and Templates.",
+        "emConf": {
+            "category": "templates",
+            "custom_category": "",
+            "dependsOn": "typo3 => 6.2.0-6.2.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "version": "1.0.0"
+        },
+        "extensionKey": "basetemplate62",
+        "name": "Website Templates 6.2",
+        "originalExtensionKey": "",
+        "persons": [
+            {
+                "company": "",
+                "email": "sebastian@sklein-medien.de",
+                "name": "Sebastian Klein",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "SebastianKlein"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2016-01-20 06:41",
+        "extension_builder_version": "6.2",
+        "be_user": "User (2)"
+    }
+}
