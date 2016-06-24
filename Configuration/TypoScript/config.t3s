@@ -2,6 +2,9 @@ config {
     headerComment = {$plugin.tx_basetemplate62.headerComment}
     headerComment.if.isTrue = {$plugin.tx_basetemplate62.headerComment}
 
+    // Secure Headers (see https://www.owasp.org/index.php/OWASP_Secure_Headers_Project):
+    additionalHeaders = strict-transport-security: maxage= 31536000; includeSubdomains | x-frame-options: SAMEORIGIN | X-XSS-Protection: 1; mode=block | X-Content-Type-Options: nosniff | X-Powered-By: nothing
+
     // alternative PageRenderer:
     # pageRendererTemplateFile = EXT:basetemplate62/Resources/Private/Templates/tslib_page_frontend.html
 
