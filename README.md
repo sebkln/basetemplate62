@@ -1,14 +1,20 @@
 # Template Foundation TYPO3 6.2
 
+**This package will get no more updates, as the target version of TYPO3 is unmaintained, too.
+You're advised to use the newer and improved versions [basetemplate7](https://github.com/sebkln/basetemplate7)
+or [basetemplate8](https://github.com/sebkln/basetemplate8).**
+
 It is good practice to save your TypoScripts, HTML templates etc. in a separate extension. That way you can
 - use a distributed version control system to manage your configurations and templates
 - keep the fileadmin clean and use it solely for the website's content
 
-This TYPO3 extension can be a base for your website configuration. Add your Stylesheets, JavaScripts and templates and adapt the supplied configurations to your needs. 
+This TYPO3 extension can be a base for your website configuration. Add your Stylesheets,
+JavaScripts and templates and adapt the supplied configurations to your needs. 
 
 It does not contain any Frontend Framework, so you're free to use your favourite Framework or custom templates.
 
-If you intend using **Bootstrap**, you definitely should check [bootstrap_package](https://github.com/benjaminkott/bootstrap_package) out. This extension provides you with a complete integration of Bootstrap in TYPO3.
+If you intend using **Bootstrap**, you definitely should check [bootstrap_package](https://github.com/benjaminkott/bootstrap_package) out.
+This extension provides you with a complete integration of Bootstrap in TYPO3.
 
 ## Features
 
@@ -22,8 +28,10 @@ If you intend using **Bootstrap**, you definitely should check [bootstrap_packag
 
 1. Copy this extension into the folder **typo3conf/ext/**
 2. You may want to rename the extension.
-    1. Rename the folder from `basetemplate62` to your desired name, e.g. `clienttemplates`. **Have the naming conventions for extensions in mind!**<sup>[1](#namingconvention)</sup>
-    2. Search and replace all occurences of `basetemplate62` with the new chosen name. Replacing is fast and easy if you use a professional text editor and don't use underscores.<sup>[2](#underscores)</sup>
+    1. Rename the folder from `basetemplate62` to your desired name, e.g. `clienttemplates`.
+    **Have the naming conventions for extensions in mind!**<sup>[1](#namingconvention)</sup>
+    2. Search and replace all occurences of `basetemplate62` with the new chosen name.
+    Replacing is fast and easy if you use a professional text editor and don't use underscores.<sup>[2](#underscores)</sup>
 3. Open TYPO3 extension Manager and install the extension. From that moment the TSconfig is used.
 4. Include it as a Static Template in your Root Template.
 5. Begin to add your Templates and adapt the configuration. Make it yours!
